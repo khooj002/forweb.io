@@ -4,6 +4,7 @@ body {
   margin: 0;
   overflow: hidden;
   position: relative;
+  background-image: url('http://res2.windows.microsoft.com/resbox/en/windows/main/f6c3bd2e-cc53-4cf8-8b4e-051a4fb567e8_4.jpg'); 
 }
 
 /* Initial menu */
@@ -14,12 +15,12 @@ body {
   position: fixed;
   width: 285px;
 }
-
+/*http://res2.windows.microsoft.com/resbox/en/windows/main/f6c3bd2e-cc53-4cf8-8b4e-051a4fb567e8_4.jpg
 /* Basic styling */
 
 .jumbotron {
-  background-image: url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/bg.png'); 
-  height: 100%;
+  /*background-image: url('http://res2.windows.microsoft.com/resbox/en/windows/main/f6c3bd2e-cc53-4cf8-8b4e-051a4fb567e8_4.jpg'); */
+  /*height: 100%;*/
   -webkit-background-size: cover;
      -moz-background-size: cover;
        -o-background-size: cover;
@@ -70,3 +71,33 @@ body {
 .icon-menu i {
   margin-right: 5px;
 }
+
+.resume {
+  border: 1px solid red;
+  margin: 0 auto;
+}
+
+.click-icon-about {
+  background-image: url('resume.png') repeat left top;
+  left: -285px;  /* start off behind the scenes */
+  height: 100%;
+  position: fixed;
+  width: 285px;
+}
+a.pdf { /*The background image*/
+  background: url(images/resume.png) no-repeat left center;
+  padding-left: 20px;
+  line-height: 16px; /* To center the text vertically with the icon */
+}
+
+#button-hide {
+  border: 2px solid purple;
+  width: 120px;
+  opacity: 0;
+}
+
+#button-appear {
+  width: 120px;
+  opacity: 100;
+}
+
